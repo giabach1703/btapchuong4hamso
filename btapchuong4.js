@@ -18,11 +18,10 @@ function createGreeting(greeting) {
     return greeting + ", " + name + "!";
   };
 }
-
 const sayHello = createGreeting("Hello");
 const sayHi = createGreeting("Hi");
 
-let name = prompt("name: ");
+let name = "Bach";
 console.log(sayHello(name));
 console.log(sayHi(name));
 
